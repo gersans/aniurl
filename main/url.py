@@ -31,6 +31,7 @@ def makeList():
     names = None
     characterName = charName()
     
+    #if characterName is None type split string
     if characterName != None:
         names = characterName.split()
         return names
