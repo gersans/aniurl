@@ -21,7 +21,7 @@ def browserOpen(sender,data):
     #on browser open delete button
     delete_button(sender,sender)
     
-# function to dlete button    
+# function to delete button    
 def delete_button(sender,data):
     delete_item(sender)
     print(sender)
