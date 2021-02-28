@@ -8,7 +8,7 @@ from dearpygui.simple import *
 #generate url based on anilist max characters
 def urlGenerator():
     urlID = random.randint(1,200000)
-    return (str(urlID)
+    return (str(urlID))
 
 #grab character name from anilist            
 def charName():
