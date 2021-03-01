@@ -24,7 +24,6 @@ def browserOpen(sender,data):
 # function to delete button    
 def delete_button(sender,data):
     delete_item(sender)
-    print(sender)
 
 #window settings
 set_main_window_size(1200,670)
